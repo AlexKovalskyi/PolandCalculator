@@ -1,0 +1,9 @@
+E:\test\WorkWithStack\WorkWithStack\bin\Debug\WorkWithStack.exe.config
+E:\test\WorkWithStack\WorkWithStack\bin\Debug\WorkWithStack.exe
+E:\test\WorkWithStack\WorkWithStack\bin\Debug\WorkWithStack.pdb
+E:\test\WorkWithStack\WorkWithStack\obj\Debug\WorkWithStack.exe
+E:\test\WorkWithStack\WorkWithStack\obj\Debug\WorkWithStack.pdb
+E:\test\WorkWithStack\WorkWithStack\obj\Debug\WorkWithStack.csprojResolveAssemblyReference.cache
+E:\GitHub\PolandCalculator\WorkWithStack\bin\Debug\WorkWithStack.exe.config
+E:\GitHub\PolandCalculator\WorkWithStack\obj\Debug\WorkWithStack.exe
+E:\GitHub\PolandCalculator\WorkWithStack\obj\Debug\WorkWithStack.pdb
