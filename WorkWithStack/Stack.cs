@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WorkWithStack
 {
-	public class Stack<T> :  IEnumerable
+	public class Stack<T> : IEnumerable
 	{
 		T[] stack;
 		public int Count()
@@ -30,7 +30,7 @@ namespace WorkWithStack
 
 		public T Pop()
 		{
-			var item = stack[stack.Length-1];
+			var item = stack[stack.Length - 1];
 			if (item != null)
 			{
 				Array.Resize(ref stack, stack.Length - 1);
@@ -40,7 +40,7 @@ namespace WorkWithStack
 			{
 				throw new InvalidOperationException();
 			}
-			
+
 		}
 		public T Peek()
 		{
@@ -63,6 +63,6 @@ namespace WorkWithStack
 		{
 			return stack.GetEnumerator();
 		}
-		
+
 	}
 }

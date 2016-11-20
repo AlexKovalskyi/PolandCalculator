@@ -8,11 +8,14 @@ namespace WorkWithStack
 		{
 			ReadConsole read = new ReadConsole();
 
-			PolandCalculator calculator = new PolandCalculator(read.GetDataFromConsole());
+			PolandCalculator calculator = new PolandCalculator();
 
-			double result = calculator.Calculate();
+			double result = calculator.Calculate(read.GetDataFromConsole());
 			Console.WriteLine(result);
 			Console.Read();
+
+			TCPServer clas = new TCPServer();
+			clas.RunServer();
 		}
 	}
 }

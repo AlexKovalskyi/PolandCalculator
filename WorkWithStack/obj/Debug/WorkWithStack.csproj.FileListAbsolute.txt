@@ -7,3 +7,9 @@ E:\test\WorkWithStack\WorkWithStack\obj\Debug\WorkWithStack.csprojResolveAssembl
 E:\GitHub\PolandCalculator\WorkWithStack\bin\Debug\WorkWithStack.exe.config
 E:\GitHub\PolandCalculator\WorkWithStack\obj\Debug\WorkWithStack.exe
 E:\GitHub\PolandCalculator\WorkWithStack\obj\Debug\WorkWithStack.pdb
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\bin\Debug\WorkWithStack.exe.config
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\obj\Debug\WorkWithStack.exe
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\obj\Debug\WorkWithStack.pdb
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\bin\Debug\WorkWithStack.exe
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\bin\Debug\WorkWithStack.pdb
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\obj\Debug\WorkWithStack.csprojResolveAssemblyReference.cache

@@ -5,12 +5,10 @@ namespace WorkWithStack
 	public class PolandCalculator
 	{
 		private Stack<double> stack = new Stack<double>();
-		private string data;
-		public PolandCalculator(string data)
+		public PolandCalculator()
 		{
-			this.data = data;
 		}
-		public double Calculate()
+		public double Calculate(string data)
 		{
 			string[] operators = data.Split(' ');
 			for (int i = 0; i <= operators.Length - 1; i++)

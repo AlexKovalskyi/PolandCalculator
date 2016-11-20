@@ -43,13 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TCPServer.cs" />
     <Compile Include="PolandCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="..\..\first version of stack\Stack.cs">
-      <Link>Stack.cs</Link>
-    </Compile>
     <Compile Include="ReadConsole.cs" />
+    <Compile Include="Stack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
