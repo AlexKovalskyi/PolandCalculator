@@ -1,5 +1,4 @@
-﻿using TCPServer;
-using PolishCalculator;
+﻿using PolishCalculator;
 
 
 namespace RemotePolishCalculatorApp
@@ -9,8 +8,7 @@ namespace RemotePolishCalculatorApp
 		static void Main(string[] args)
 		{
 			PolishCalc calc = new PolishCalc();
-			//TODO: TCPServe?
-			TCPServe server = new TCPServe(calc);
+			TCPServer.TCPServer server = new TCPServer.TCPServer(calc);
 			server.RunServer();
 
 		}

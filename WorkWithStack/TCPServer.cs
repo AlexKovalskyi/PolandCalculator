@@ -6,32 +6,29 @@ using PolishCalculator;
 
 namespace TCPServer
 {
-	public class TCPServe
+	public class TCPServer
 	{
-		//TODO: access modifier missed
-		const string SERVER_IP = "127.0.0.1";
-		//TODO: access modifier missed
-		static int port = 8005;
+		private const string SERVER_IP = "127.0.0.1";
+		private static int port = 8005;
 		private ICalculator calculator;
 
-		public TCPServe(ICalculator calculator)
+		public TCPServer(ICalculator calculator)
 		{
 			this.calculator = calculator;
 		}
 		public void RunServer()
 		{
-			//TODO: Russion comments for dummies
-			// получаем адреса для запуска сокета
+			// get addresses for socket start
 			IPEndPoint ipPoint = new IPEndPoint(IPAddress.Parse(SERVER_IP), port);
 
-			// создаем сокет
+			// create Socket
 			Socket listenSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 			try
 			{
-				// связываем сокет с локальной точкой, по которой будем принимать данные
+				// bind a socket to a local point at which we receive data
 				listenSocket.Bind(ipPoint);
 
-				// начинаем прослушивание
+				//  start listerning
 				listenSocket.Listen(10);
 
 				Console.WriteLine("Listening...");
@@ -39,10 +36,10 @@ namespace TCPServer
 				while (true)
 				{
 					Socket handler = listenSocket.Accept();
-					// получаем сообщение
+					// get message
 					StringBuilder builder = new StringBuilder();
-					int bytes = 0; // количество полученных байтов
-					byte[] data = new byte[256]; // буфер для получаемых данных
+					int bytes = 0; // amount of bytes what we have got
+					byte[] data = new byte[256]; // buffer for the received data
 
 					do
 					{
@@ -55,11 +52,11 @@ namespace TCPServer
 
 					Console.WriteLine($"Answer: {calculator.Calculate(builder.ToString())}");
 
-					// отправляем ответ
+					// sending answer
 					string message = calculator.Calculate(builder.ToString()).ToString();
 					data = Encoding.Unicode.GetBytes(message);
 					handler.Send(data);
-					// закрываем сокет
+					// closing socket
 					handler.Shutdown(SocketShutdown.Both);
 					handler.Close();
 				}

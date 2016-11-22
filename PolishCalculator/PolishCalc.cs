@@ -5,45 +5,40 @@ namespace PolishCalculator
 {
 	public class PolishCalc : ICalculator
 	{
-		//TODO: stack => calcStack
-		private Stack<double> stack = new Stack<double>();
-		//TODO: default ctor is available without declaration.
-		public PolishCalc()
-		{
-		}
+		private Stack<double> calcStack = new Stack<double>();
+		
 		public double Calculate(string data)
 		{
 			string[] operators = data.Split(' ');
-			//TODO: i <= operators.Length - 1 . WTF?
-			for (int i = 0; i <= operators.Length - 1; i++)
+			for (int i = 0; i <= operators.Length; i++)
 			{
 				double firstNumber;
 				bool isNumber = double.TryParse(operators[i], out firstNumber);
 				if (isNumber)
 				{
-					stack.Push(firstNumber);
+					calcStack.Push(firstNumber);
 				}
 				else
 				{
-					//TODO: Replace declaration closer to usage.
+					//TODO: Replace declaration closer to usage.  I can't!
 					double secondNumber;
 					switch (operators[i])
 					{
 						case "+":
-							stack.Push(stack.Pop() + stack.Pop());
+							calcStack.Push(calcStack.Pop() + calcStack.Pop());
 							break;
 						case "*":
-							stack.Push(stack.Pop() * stack.Pop());
+							calcStack.Push(calcStack.Pop() * calcStack.Pop());
 							break;
 						case "-":
-							secondNumber = stack.Pop();
-							stack.Push(stack.Pop() - secondNumber);
+							secondNumber = calcStack.Pop();
+							calcStack.Push(calcStack.Pop() - secondNumber);
 							break;
 						case "/":
-							secondNumber = stack.Pop();
+							secondNumber = calcStack.Pop();
 							if (secondNumber != 0.0)
 							{
-								stack.Push(stack.Pop() / secondNumber);
+								calcStack.Push(calcStack.Pop() / secondNumber);
 							}
 							else
 								Console.WriteLine("You cant divide on 0!");
@@ -54,7 +49,7 @@ namespace PolishCalculator
 					}
 				}
 			}
-			return stack.Pop();
+			return calcStack.Pop();
 		}
 	}
 }
