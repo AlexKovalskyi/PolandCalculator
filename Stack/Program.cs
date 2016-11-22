@@ -8,6 +8,7 @@ namespace Stack
 {
 	class Program
 	{
+		//TODO: it is dll not console app
 		static void Main(string[] args)
 		{
 		}

@@ -8,7 +8,9 @@ namespace TCPServer
 {
 	public class TCPServe
 	{
+		//TODO: access modifier missed
 		const string SERVER_IP = "127.0.0.1";
+		//TODO: access modifier missed
 		static int port = 8005;
 		private ICalculator calculator;
 
@@ -18,6 +20,7 @@ namespace TCPServer
 		}
 		public void RunServer()
 		{
+			//TODO: Russion comments for dummies
 			// получаем адреса для запуска сокета
 			IPEndPoint ipPoint = new IPEndPoint(IPAddress.Parse(SERVER_IP), port);
 
