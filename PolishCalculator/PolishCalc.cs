@@ -1,11 +1,12 @@
 ﻿using System;
+using Stack;
 
-namespace WorkWithStack
+namespace PolishCalculator
 {
-	public class PolandCalculator
+	public class PolishCalc : ICalculator
 	{
 		private Stack<double> stack = new Stack<double>();
-		public PolandCalculator()
+		public PolishCalc()
 		{
 		}
 		public double Calculate(string data)

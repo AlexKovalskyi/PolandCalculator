@@ -1,0 +1,8 @@
+E:\GitHub\PolandCalculator\PolandCalculator\PolishCalculator\bin\Debug\PolishCalculator.exe.config
+E:\GitHub\PolandCalculator\PolandCalculator\PolishCalculator\bin\Debug\PolishCalculator.exe
+E:\GitHub\PolandCalculator\PolandCalculator\PolishCalculator\bin\Debug\PolishCalculator.pdb
+E:\GitHub\PolandCalculator\PolandCalculator\PolishCalculator\bin\Debug\Stack.exe
+E:\GitHub\PolandCalculator\PolandCalculator\PolishCalculator\bin\Debug\Stack.pdb
+E:\GitHub\PolandCalculator\PolandCalculator\PolishCalculator\obj\Debug\PolishCalculator.csprojResolveAssemblyReference.cache
+E:\GitHub\PolandCalculator\PolandCalculator\PolishCalculator\obj\Debug\PolishCalculator.exe
+E:\GitHub\PolandCalculator\PolandCalculator\PolishCalculator\obj\Debug\PolishCalculator.pdb

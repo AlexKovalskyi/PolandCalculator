@@ -1,17 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading.Tasks;
+using PolishCalculator;
 
-namespace WorkWithStack
+namespace TCPServer
 {
-	public class TCPServer
+	public class TCPServe
 	{
-		static int port = 8005;
 		const string SERVER_IP = "127.0.0.1";
+		static int port = 8005;
+		private ICalculator calculator;
+
+		public TCPServe(ICalculator calculator)
+		{
+			this.calculator = calculator;
+		}
 		public void RunServer()
 		{
 			// получаем адреса для запуска сокета
@@ -45,10 +49,11 @@ namespace WorkWithStack
 					while (handler.Available > 0);
 
 					Console.WriteLine(DateTime.Now.ToShortTimeString() + ": " + builder.ToString());
-					Console.WriteLine(builder.ToString());
+
+					Console.WriteLine($"Answer: {calculator.Calculate(builder.ToString())}");
 
 					// отправляем ответ
-					string message = "Your message sended";
+					string message = calculator.Calculate(builder.ToString()).ToString();
 					data = Encoding.Unicode.GetBytes(message);
 					handler.Send(data);
 					// закрываем сокет

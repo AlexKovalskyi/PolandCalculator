@@ -1,0 +1,10 @@
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\bin\Debug\WorkWithStack.exe.config
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\bin\Debug\WorkWithStack.exe
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\bin\Debug\WorkWithStack.pdb
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\bin\Debug\PolishCalculator.exe
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\bin\Debug\Stack.exe
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\bin\Debug\PolishCalculator.pdb
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\bin\Debug\Stack.pdb
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\obj\Debug\TCPServer.csprojResolveAssemblyReference.cache
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\obj\Debug\WorkWithStack.exe
+E:\GitHub\PolandCalculator\PolandCalculator\WorkWithStack\obj\Debug\WorkWithStack.pdb

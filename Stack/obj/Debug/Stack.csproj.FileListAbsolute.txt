@@ -1,0 +1,5 @@
+E:\GitHub\PolandCalculator\PolandCalculator\Stack\bin\Debug\Stack.exe.config
+E:\GitHub\PolandCalculator\PolandCalculator\Stack\bin\Debug\Stack.exe
+E:\GitHub\PolandCalculator\PolandCalculator\Stack\bin\Debug\Stack.pdb
+E:\GitHub\PolandCalculator\PolandCalculator\Stack\obj\Debug\Stack.exe
+E:\GitHub\PolandCalculator\PolandCalculator\Stack\obj\Debug\Stack.pdb

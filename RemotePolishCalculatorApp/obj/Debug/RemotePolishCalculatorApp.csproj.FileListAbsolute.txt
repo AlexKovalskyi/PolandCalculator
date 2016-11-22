@@ -1,0 +1,12 @@
+E:\GitHub\PolandCalculator\PolandCalculator\RemotePolishCalculatorApp\bin\Debug\RemotePolishCalculatorApp.exe.config
+E:\GitHub\PolandCalculator\PolandCalculator\RemotePolishCalculatorApp\bin\Debug\RemotePolishCalculatorApp.exe
+E:\GitHub\PolandCalculator\PolandCalculator\RemotePolishCalculatorApp\bin\Debug\RemotePolishCalculatorApp.pdb
+E:\GitHub\PolandCalculator\PolandCalculator\RemotePolishCalculatorApp\bin\Debug\WorkWithStack.exe
+E:\GitHub\PolandCalculator\PolandCalculator\RemotePolishCalculatorApp\bin\Debug\PolishCalculator.exe
+E:\GitHub\PolandCalculator\PolandCalculator\RemotePolishCalculatorApp\bin\Debug\Stack.exe
+E:\GitHub\PolandCalculator\PolandCalculator\RemotePolishCalculatorApp\bin\Debug\WorkWithStack.pdb
+E:\GitHub\PolandCalculator\PolandCalculator\RemotePolishCalculatorApp\bin\Debug\PolishCalculator.pdb
+E:\GitHub\PolandCalculator\PolandCalculator\RemotePolishCalculatorApp\bin\Debug\Stack.pdb
+E:\GitHub\PolandCalculator\PolandCalculator\RemotePolishCalculatorApp\obj\Debug\RemotePolishCalculatorApp.csprojResolveAssemblyReference.cache
+E:\GitHub\PolandCalculator\PolandCalculator\RemotePolishCalculatorApp\obj\Debug\RemotePolishCalculatorApp.exe
+E:\GitHub\PolandCalculator\PolandCalculator\RemotePolishCalculatorApp\obj\Debug\RemotePolishCalculatorApp.pdb
